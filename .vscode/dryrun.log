@@ -1,0 +1,8 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Users/lkoor/Documents/example_consumer/example-consumer'
+touch .env
+echo "\n========== STAGE: test (pact) ==========\n"
+npm run test:pact
+ 
+make.exe: Leaving directory `c:/Users/lkoor/Documents/example_consumer/example-consumer'
+ 
